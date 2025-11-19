@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://digi-tawny.vercel.app",
+  origin: "https://steady-gnome-40dc34.netlify.app",
   credentials: true
 }));
 
