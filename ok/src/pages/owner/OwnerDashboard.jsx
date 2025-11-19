@@ -12,7 +12,7 @@ const OwnerDashboard = () => {
   const navigate = useNavigate();
 
   // Direct API URL define karein
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://digi-ijuk.onrender.com';
 
   useEffect(() => {
     fetchSubmissions();
