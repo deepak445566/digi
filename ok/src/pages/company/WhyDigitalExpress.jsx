@@ -12,8 +12,8 @@ const WhyDigitalExpress = () => {
     {
       icon: "⭐",
       title: "Proven Excellence",
-      description: "500+ successful projects delivered with 98% client satisfaction rate",
-      features: ["500+ Projects", "98% Satisfaction", "200+ Clients", "50+ Team"],
+      description: "777+ successful projects delivered with 98% client satisfaction rate",
+      features: ["777+ Projects", "98% Satisfaction", "600+ Clients", "10+ Team"],
       gradient: "from-purple-400 to-indigo-400"
     },
     {
@@ -33,12 +33,12 @@ const WhyDigitalExpress = () => {
   ];
 
   const stats = [
-    { number: "500+", label: "Projects Completed" },
-    { number: "200+", label: "Happy Clients" },
+    { number: "777+", label: "Projects Completed" },
+    { number: "600+", label: "Happy Clients" },
     { number: "98%", label: "Success Rate" },
-    { number: "50+", label: "Expert Team" },
+    { number: "10+", label: "Expert Team" },
     { number: "24/7", label: "Support" },
-    { number: "5+", label: "Years Experience" }
+    { number: "8+", label: "Years Experience" }
   ];
 
   const process = [
@@ -194,7 +194,7 @@ const WhyDigitalExpress = () => {
         </div>
 
         {/* Final CTA */}
-        <div className="text-center bg-white/50 backdrop-blur-xl rounded-3xl p-12 border border-white/50">
+        {/* <div className="text-center bg-white/50 backdrop-blur-xl rounded-3xl p-12 border border-white/50">
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
             Ready to Experience the Difference?
           </h2>
@@ -212,7 +212,7 @@ const WhyDigitalExpress = () => {
               Schedule a Call
             </button>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -2,19 +2,17 @@ import React from 'react';
 
 const TrustedBy = () => {
   const clients = [
-    { name: "Dhonkot Traders", category: "MSME" },
-    { name: "Kumar Nursing Home", category: "Healthcare" },
-    { name: "Rodney Trout", category: "Aquaculture" },
-    { name: "Best Advocates India", category: "Legal Services" },
-    { name: "Universal Media Express", category: "Media" },
-    { name: "BADIA EXPRESS", category: "Logistics" },
-    { name: "DONALD KATRIER", category: "Retail" },
-    { name: "ISHEETA CUPTA", category: "Fashion" },
-    { name: "BAGHEL ROUSTRELS PVT. LTD.", category: "Manufacturing" },
-    { name: "Carpel MANDACABERS INDIA", category: "Automotive" },
-    { name: "STEEL PIPE SOURCING", category: "Industrial" },
-    { name: "SIG LEGAL", category: "Legal Services" }
-  ];
+  { name: "Shiv Gauri", category: "Manufacturing" },
+  { name: "Venus Geyser Service", category: "Residential" },
+  { name: "Power Cruises", category: "Travel" },
+  { name: "Mahesh Painter", category: "Painting" },
+  { name: "Advocate Harsh Pandit", category: "Marriage" },
+  { name: "Vivek Mehndi Artist", category: "Wedding" },
+  { name: "Pranjal Nasha Mukti Kendra", category: "Social Work" },
+  { name: "The Marriage Registration", category: "Marriage" },
+  { name: "Sonu Balloon Decoration", category: "Party Decoration" },
+];
+
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#FFF2D8] via-[#A7C5FF] to-[#7CA6FF]">

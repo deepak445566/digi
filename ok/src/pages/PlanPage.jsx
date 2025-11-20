@@ -20,7 +20,7 @@ export default function PlanPage() {
   const [message, setMessage] = useState("");
 
   // Direct API URL define karein
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://digi-ijuk.onrender.com";
 
   // Find service
   const service = servicesData.find((s) => s.id === id);

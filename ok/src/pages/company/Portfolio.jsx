@@ -3,83 +3,84 @@ import React from 'react';
 const Portfolio = () => {
   const portfolioProjects = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "Web Development",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "https://example-ecommerce.com",
-      featured: true
-    },
+  id: 1,
+  title: "Shiv Gauri",
+  description: "Shiv Gauri Infra Project provides reliable Fabrication, O&M, and R&M services with precision, efficiency, and long-term infrastructure support.",
+  image: "/images/Shiv.png",
+  category: "Web Development",
+  technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+  liveUrl: "https://shivgauriinfra.com/",
+  featured: true
+},
+
     {
       id: 2,
-      title: "Mobile Banking App",
-      description: "Secure mobile banking application for iOS and Android",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "Mobile App",
-      technologies: ["React Native", "Firebase", "Node.js"],
-      liveUrl: "https://play.google.com/store/apps/details?id=com.bankingapp",
+      title: "Power Crusies",
+      description: "Power Cruises brings you unforgettable ocean journeys with luxury comfort and world-class travel experiences",
+      image: "/images/PowerCrusies.png",
+      category: "Web Development",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      liveUrl: "https://powercruiseholidays.netlify.app/",
       featured: true
     },
     {
       id: 3,
-      title: "Corporate Website",
-      description: "Modern corporate website with CMS and admin dashboard",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "Web Design",
-      technologies: ["Next.js", "Tailwind CSS", "Sanity CMS"],
-      liveUrl: "https://corporate-website.com",
+      title: "Venus Geyser Service",
+      description: "Venus Geyser Service provides fast, reliable, and expert geyser installation and repair solutions for your home and business.",
+      image: "/images/Venus.png",
+      category: "Web Development",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      liveUrl: "https://venus-geyser-service.netlify.app/",
       featured: false
     },
     {
       id: 4,
-      title: "Food Delivery App",
-      description: "Food ordering and delivery platform with real-time tracking",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "Mobile App",
+      title: "Stellar Serve",
+      description: "StellarServe provides fast and reliable indexing solutions to help blogs and websites get discovered quickly on search engines.",
+      image: "/images/quick.png",
+      category: "Web Development",
       technologies: ["Flutter", "Firebase", "Google Maps API"],
-      liveUrl: "https://foodapp.example.com",
+      liveUrl: "https://dapper-druid-feb24d.netlify.app/",
       featured: true
     },
     {
       id: 5,
-      title: "Healthcare Portal",
-      description: "Patient management system with appointment booking",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "Web Application",
+      title: "Mahesh Painter",
+      description: "Mahesh Painter delivers expert, high-quality residential and commercial painting services with a commitment to precision and perfection.",
+      image: "/images/Mahesh.png",
+      category: "Web Development",
       technologies: ["Vue.js", "Laravel", "MySQL"],
-      liveUrl: "https://healthcare-portal.com",
+      liveUrl: "https://maheshpainter.in/",
       featured: false
     },
     {
       id: 6,
-      title: "Real Estate Platform",
-      description: "Property listing and management platform with virtual tours",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      title: "Mosaic Nature Stays",
+      description: "Mosaic Nature Stays — a peaceful hotel retreat blending comfort, nature, and unforgettable hospitality.",
+      image: "/images/Mosaic.png",
       category: "Web Development",
       technologies: ["React", "Python", "PostgreSQL"],
-      liveUrl: "https://realestate-platform.com",
+      liveUrl: "https://mosaicnaturestays.in/",
       featured: true
     },
     {
       id: 7,
-      title: "Fitness Tracking App",
-      description: "Workout and nutrition tracking mobile application",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      title: "Vivek Mehndi Artist",
+      description: "Vivek Mehndi Artist – Bringing vibrant Haldi celebration artistry and stunning mehndi designs to make your special moments unforgettable.",
+      image: "/images/Vivek.png",
       category: "Mobile App",
       technologies: ["Swift", "Kotlin", "Firebase"],
-      liveUrl: "https://apps.apple.com/fitness-app",
+      liveUrl: "https://vivekmehndiartist.in/",
       featured: false
     },
     {
       id: 8,
-      title: "Educational Platform",
-      description: "Online learning platform with video courses and quizzes",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      title: "pujacleanservice",
+      description: "Ever since the inception of our company, we have delivered professional deep cleaning services, Pest Control and also Painting Services in Nellore to our clients based on their domestic as well as industrial requirements.",
+      image: "/images/Puja.png",
       category: "Web Application",
       technologies: ["Angular", "Node.js", "MongoDB"],
-      liveUrl: "https://learn-with-us.com",
+      liveUrl: "https://pujacleanservice.in/",
       featured: true
     }
   ];
@@ -130,24 +131,7 @@ const Portfolio = () => {
         </div>
 
         {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => {
-                setActiveCategory(category);
-                setVisibleProjects(6);
-              }}
-              className={`px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 ${
-                activeCategory === category
-                  ? 'bg-indigo-600 text-white shadow-2xl'
-                  : 'bg-white/60 text-gray-700 hover:bg-white/80 backdrop-blur-md border border-white/60'
-              }`}
-            >
-              {category}
-            </button>
-          ))}
-        </div>
+        
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -233,7 +217,7 @@ const Portfolio = () => {
         )}
 
         {/* Stats Section */}
-        <div className="bg-white/40 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/60 shadow-2xl mt-16">
+        {/* <div className="bg-white/40 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/60 shadow-2xl mt-16">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-black text-indigo-700 mb-2">{portfolioProjects.length}+</div>
@@ -252,10 +236,10 @@ const Portfolio = () => {
               <div className="text-gray-700 font-semibold">Technologies</div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <div className="bg-white/40 backdrop-blur-xl rounded-3xl p-12 border border-white/60 shadow-2xl">
             <h2 className="text-4xl font-black text-gray-900 mb-6">
               Ready to Start Your Project?
@@ -272,7 +256,7 @@ const Portfolio = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <style jsx>{`

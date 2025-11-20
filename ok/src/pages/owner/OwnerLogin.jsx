@@ -110,7 +110,7 @@ const OwnerLogin = () => {
                 type="email"
                 required
                 className="appearance-none rounded relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="owner@digitalexpress.com"
+                placeholder="owner.com"
                 value={formData.email}
                 onChange={handleChange}
                 disabled={loading}
@@ -126,7 +126,7 @@ const OwnerLogin = () => {
                 type="password"
                 required
                 className="appearance-none rounded relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="owner123"
+                placeholder="ownerpassword"
                 value={formData.password}
                 onChange={handleChange}
                 disabled={loading}
@@ -154,14 +154,7 @@ const OwnerLogin = () => {
             </button>
           </div>
 
-          {/* Test Credentials Hint */}
-          <div className="text-center bg-blue-50 p-4 rounded-lg border border-blue-200">
-            <p className="text-sm font-medium text-blue-800 mb-2">Use these test credentials:</p>
-            <p className="text-xs text-blue-600">
-              <strong>Email:</strong> owner@digitalexpress.com<br />
-              <strong>Password:</strong> owner123
-            </p>
-          </div>
+         
         </form>
       </div>
     </div>

@@ -47,7 +47,7 @@ const ModernNavbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3 cursor-pointer">
             <div className="w-12 h-12 bg-white/90 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg border border-white/40">
-              <span className="text-indigo-700 font-extrabold text-xl">DE</span>
+           <img src="/images/logo.jpg"/>
             </div>
             <a href="/" className="block">
               <h1 className="text-gray-900 text-lg lg:text-2xl font-bold tracking-tight drop-shadow-sm">

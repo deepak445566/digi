@@ -4,29 +4,36 @@ const CompanyProfile = () => {
   const companyInfo = {
     name: "Digital Express India",
     tagline: "Transforming Businesses Through Digital Innovation",
-    founded: "2018",
-    employees: "50+",
-    projects: "500+",
-    clients: "200+",
+    founded: "2017",
+    employees: "10+",
+    projects: "777+",
+    clients: "600+",
     satisfaction: "98%"
   };
 
   const services = [
-    { icon: "💻", title: "Web Development", description: "Custom websites and web applications built with modern technologies" },
-    { icon: "📱", title: "Mobile Apps", description: "Native and cross-platform mobile applications for iOS and Android" },
-    { icon: "🎯", title: "Digital Marketing", description: "Result-driven SEO, SEM, and social media marketing strategies" },
-    { icon: "🛒", title: "E-Commerce", description: "Complete online store solutions with secure payment integration" },
-    { icon: "☁️", title: "Cloud Solutions", description: "Scalable cloud infrastructure and deployment services" },
-    { icon: "🔧", title: "IT Consulting", description: "Strategic technology consulting for business growth" }
-  ];
+  { icon: "🔍", title: "SEO Optimization", description: "Improve rankings and drive organic traffic with advanced SEO strategies." },
+  { icon: "🌐", title: "Website", description: "Professional, responsive, and high-performance website development." },
+  { icon: "📄", title: "Google Page Handling", description: "Complete management of your Google Business Profile for better visibility." },
+  { icon: "💻", title: "Development", description: "Custom web and app development tailored to your business needs." },
+  { icon: "📍", title: "Google Map Listing", description: "Boost local visibility with optimized Google Maps business listings." },
+  { icon: "📢", title: "Digital Marketing", description: "End-to-end digital marketing solutions that generate real results." },
+  { icon: "🎨", title: "Branding", description: "Build a strong brand identity with creative and strategic branding solutions." },
+  { icon: "📰", title: "Public Relations", description: "Strengthen your brand reputation with professional PR strategies." },
+  { icon: "📱", title: "Social Media Marketing", description: "Grow your audience and engagement with targeted social media campaigns." },
+  { icon: "✍️", title: "Content Marketing", description: "High-quality content that attracts, engages, and converts customers." }
+];
+
 
   const milestones = [
-    { year: "2018", event: "Company Founded" },
-    { year: "2019", event: "First 50 Clients" },
+    { year: "2017", event: "Company Founded" },
+    { year: "2018", event: "First 100 Clients" },
     { year: "2020", event: "Expanded to 25+ Team Members" },
-    { year: "2021", event: "Launched Mobile App Division" },
+    { year: "2021", event: "Founded swadeshi bharat" },
     { year: "2022", event: "500+ Projects Delivered" },
-    { year: "2023", event: "International Client Expansion" }
+    { year: "2023", event: "International Client Expansion" },
+    { year: "2024", event: "Started Soorveer Yuva Sangathan/WhatsApp Summit" },
+    { year: "2025", event: "NDTV Summit" }
   ];
 
   const values = [
@@ -158,7 +165,7 @@ const CompanyProfile = () => {
         </div>
 
         {/* CTA */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="bg-white/50 backdrop-blur-xl rounded-3xl p-12 border border-white/60 shadow-xl">
             <h2 className="text-4xl font-black mb-6 text-gray-900">Ready to Start Your Digital Journey?</h2>
             <p className="text-lg sm:text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
@@ -173,7 +180,7 @@ const CompanyProfile = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -18,7 +18,7 @@ const Footer = () => {
         { name: "Home", url: "/" },
         { name: "Products", url: "/products" },
         { name: "Services", url: "/services" },
-        { name: "About", url: "/about" },
+        { name: "CompanyProfile", url: "/company/companyprofile" },
         { name: "Contact", url: "/contact" }
       ]
     },
@@ -29,7 +29,7 @@ const Footer = () => {
         { name: "Privacy Policy", url: "/privacy" },
         { name: "Cancellation & Refund Policy", url: "/cancel" },
            { name: "Shipping & Delivery", url: "/ship" },
-        { name: "Customer Help", url: "/help" }
+     
       ]
     },
     {
@@ -43,10 +43,10 @@ const Footer = () => {
 
   // Social media links
   const socialLinks = [
-    { name: "Facebook", url: "https://facebook.com/yourpage" },
-    { name: "Twitter", url: "https://twitter.com/yourprofile" },
-    { name: "Instagram", url: "https://instagram.com/yourprofile" },
-    { name: "LinkedIn", url: "https://linkedin.com/company/yourcompany" }
+    { name: "Facebook", url: "https://www.facebook.com/digitalexpressindiaa/" },
+   
+    { name: "Instagram", url: "https://www.instagram.com/digitalexpressindia/?hl=en" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/ravi-sharma-3b423452/?trk=public_profile_browsemap_profile-result-card_result-card_full-click&originalSubdomain=in" }
   ];
 
   // Bottom links
@@ -144,25 +144,14 @@ const Footer = () => {
               © {new Date().getFullYear()} Digital Express India — All Rights Reserved.
             </div>
 
-            {/* Additional Links */}
-            <div className="flex space-x-6">
-              {bottomLinks.map((item) => (
-                <span
-                  key={item.name}
-                  className="text-gray-400 hover:text-white cursor-pointer transition-colors duration-300 font-medium"
-                  onClick={() => handleLinkClick(item.url)}
-                >
-                  {item.name}
-                </span>
-              ))}
-            </div>
+           
 
             {/* Trust Badge */}
             <div 
               className="bg-indigo-600/20 backdrop-blur-md rounded-xl px-4 py-2 border border-indigo-400/30 cursor-pointer hover:bg-indigo-600/30 transition-all duration-300"
               onClick={() => handleLinkClick("/testimonials")}
             >
-              <span className="text-indigo-300 font-semibold text-sm">🚀 Trusted by 3000+ Businesses</span>
+              <span className="text-indigo-300 font-semibold text-sm">🚀 Trusted by 1500+ Businesses</span>
             </div>
           </div>
         </div>
