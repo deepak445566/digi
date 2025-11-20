@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://steady-gnome-40dc34.netlify.app",
+  origin: "https://courageous-druid-7eb911.netlify.app",
   credentials: true
 }));
 
