@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://courageous-druid-7eb911.netlify.app",
+  origin: "https://digitalexpressindia.com",
   credentials: true
 }));
 
